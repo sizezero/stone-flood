@@ -1,0 +1,44 @@
+
+top:
+  x: 75
+  y: 90
+  width: 675
+  height: 80
+
+bottom:
+  x: 75
+  y: 950
+  width: 675
+  height: 80
+
+title:
+  x: 75
+  y: 820
+  width: 675
+  height: 50
+  align: center
+
+# changed "width: :scale" to constant since using text
+
+picture:
+  x: 113
+  y: 200
+  width: :scale
+  height: 600
+  align: center
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  dash: 3 3

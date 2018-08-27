@@ -14,6 +14,7 @@ $ sudo apt-get install ruby
 $ sudo apt-get install ruby-dev
 $ sudo gem install rake
 $ sudo gem install squib
+$ sudo gem install game_icons
 ```
 
 # Building
