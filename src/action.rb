@@ -5,10 +5,10 @@ require 'game_icons'
 data = Squib.csv file: 'action.csv'
 
 # TODO: make colors less glaring
-player2color = { 1=>'#ffd700', 2=>'#ff0000', 3=>'#00ff00' , 4=>'#0000ff' }
+player2color = { 0=>'#000000', 1=>'#ffd700', 2=>'#ff0000', 3=>'#00ff00' , 4=>'#0000ff' }
 player2color.default = '#ff0000'
 
-action2gameIcon = { 'wizard'=>'wizard-face', 'prophet'=>'pope-crown', 'follower'=>'prayer' }
+action2gameIcon = { 'wizard'=>'wizard-face', 'prophet'=>'pope-crown', 'follower'=>'prayer', 'leader'=>'king', 'first'=>'play-button' }
 player2color.default = 'lorc/meat'
 
 # default size for Deck.new appears to be for portrait poker card
